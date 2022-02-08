@@ -1,0 +1,69 @@
+{
+    "proxies_enabled": true,
+    "env": {
+        "cookie": "",
+        "token": "",
+        "RoliVerification":"",
+        "key":"if you dont have a second whitelist, you dont need to touch"
+    },
+    "trade_notif_channel": "1",
+    "trade_completed_channel": "1",
+    "trades_inbound_channel": "1",
+    "discordid": "1",
+    "USER_ID": 1,
+
+    "Minimum_Ratio": 1.02,
+    "Maximum_Ratio": 1.15,
+    "rapboost":1,
+    "custom_ratios_enabled": true,
+    "custom_ratios": {"10000": {"min": 1.1, "max": 1.2}, "20000": {"min":1.05, "max": 1.12}, "50000": {"min":1.01, "max": 1.08}, "200000": {"min":1.006, "max": 1.07}},
+    "custom_values_send": {},
+    "custom_values_receive": {"494291269":116000},
+    "alreadysentinterval": 900000,
+    "nogucci": true,
+    "novans": true,
+    "noralph": true,
+    "noksi": true,
+    "noeggs":true,
+    "do_not_get_items_under":500,
+    "do_not_send_items_above": 10000000,
+    
+    "Upgrade":true,
+    "Downgrade": true,
+    "Mixed": true,
+
+    "DoNotTrade": [],
+    "DoNotGet": [19027209, 2409285794],
+
+    "valued_only": false,
+    "undervalue_my_underap": false,
+    "give_equal_for_underap_after_revalued":false,
+    "under_rap_ratio":1,
+    "under_rap_ratio_give":1,
+
+    "send_for_projecteds": true,
+    "projected_ratio": 0.3,
+    "owned_projected_ratio": 1,
+    "Value_projected_at_their_price": false,
+    
+    "fetch_ropro_users":true,
+    "milliseconds_between_sending_trades": 2500,
+    "reset_queue_after":60,
+    "mark_trades_messages_as_read":true,
+    "test_mode":false,
+    "post_roli_ads":true,
+
+    "Time_Between_Check_completeds": 2,
+    "clear_queue_when_completed":true,
+    "Check_inbound_interval": 2,
+    "Decline_inbound_losses": false,
+
+    "Check_outbounds":false,
+    "Check_outbounds_interval": 20,
+    "Minimum_outbound_gain": 1,
+
+    "send_notif_when_trade_sent": true,
+    "Trade_sent_color": "#04FF00",
+    "Trade_completed_color": "#F0FF00"
+    
+}
